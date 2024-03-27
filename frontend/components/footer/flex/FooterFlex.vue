@@ -50,11 +50,11 @@
       >
         {{ $t("components.footer._global.powered-by-netlify") }}
       </a>
-      <div class="mt-2 text-light-text dark:text-dark-text">
-        {{
-          $t("components._global.copyright", { year: new Date().getFullYear() })
-        }}
-      </div>
+   <div class="mt-2 text-light-text dark:text-dark-text">
+    &copy; All rights reserved. Licensed under the Creative Commons Attribution 4.0 International License.
+    
+</div>
+
     </div>
     <!-- Note: Content Sections Right -->
     <div
